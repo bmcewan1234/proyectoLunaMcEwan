@@ -9,15 +9,21 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
+    background-color: #254737;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    border-radius: 5px;
+    color: #FAF8EE;
     font-size: 20px;
 }
 
 .section-header {
     display: flex;
     flex-direction: row;
-    background-color: whitesmoke;
-    padding: 10px 0;
+    background-color: #FAF8EE;
+    border-radius: 20px;
 }
 
 
