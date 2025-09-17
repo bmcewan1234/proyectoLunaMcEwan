@@ -54,7 +54,7 @@ body {
 .main-home{
     display: flex;
     flex-direction: row;
-
+    gap: 20px;
 }
 
 .categorias{
@@ -68,9 +68,6 @@ body {
     list-style: none;
     gap: 40px;
     padding: 20px;
-}
-.categorias ul li{
-   
 }
 
 .categorias a{
@@ -98,11 +95,10 @@ body {
     flex-wrap: wrap;
     gap : 20px;
     justify-content: center;
-    align-items: center;
     margin-left: 20px;
 }
 
-.argentina, .alemania, .francia, .espana, .brasil, .holanda, .inglaterra{
+.argentina, .alemania, .españa, .brasil, .holanda, .italia{
     background-color: #FAF8EE;
     border-radius: 20px;
     width: 300px;
@@ -111,8 +107,21 @@ body {
     text-align: center;
 }
 
-.argentina img, .alemania img, .francia img, .espana img, .brasil img, .holanda img, .inglaterra img{
+.argentina img, .alemania img, .españa img, .brasil img, .holanda img, .italia img{
     width: 250px;
     height: auto;
-    border-radius: 20px;
+}
+
+.productos h1{
+    text-align: center;
+    background-color: #254737;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    border-radius: 5px;
+    color: #FAF8EE;
+    font-size: 25px;
+    border: 2px solid #FAF8EE;
+    margin-bottom: 20px;
 }
