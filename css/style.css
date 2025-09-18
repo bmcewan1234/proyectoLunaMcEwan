@@ -19,13 +19,6 @@ body {
     font-size: 30px;
 }
 
-.nav-header a:hover {
-    background-color: #1b2e25;
-    color: #FAF8EE;
-    font-size: 31px;
-    transition: 0.3s;
-}
-
 .section-header {
     display: flex;
     flex-direction: row;
@@ -82,13 +75,6 @@ body {
     font-size: 25px;
 }
 
-.categorias a:hover {
-    background-color: #1b2e25;
-    color: #FAF8EE;
-    font-size: 26px;
-    transition: 0.3s;
-}
-
 .camisetas{
     display: flex;
     flex-direction: row;
@@ -125,3 +111,4 @@ body {
     border: 2px solid #FAF8EE;
     margin-bottom: 20px;
 }
+
