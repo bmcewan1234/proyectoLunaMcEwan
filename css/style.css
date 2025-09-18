@@ -116,3 +116,54 @@ body {
     border: 2px solid #FAF8EE;
     margin-bottom: 20px;
 }
+
+.main-login h1{
+    text-align: center;
+    background-color: #254737;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    border-radius: 5px;
+    color: #FAF8EE;
+    font-size: 25px;
+    border: 2px solid #FAF8EE;
+    margin-bottom: 20px;
+}
+
+.main-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.form-login{
+    background-color: #FAF8EE;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.form-login div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-login a{
+    text-align: center;
+    text-decoration: none;
+    background-color: #254737;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    border-radius: 5px;
+    color: #FAF8EE;
+    font-size: 20px;
+    border: 2px solid #FAF8EE;
+}
+
