@@ -146,11 +146,16 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 300px;
+    height: 300px;
 }
 .form-login div{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
+}
+.botones-login{
+    padding-top: 80px;
 }
 
 .form-login a{
