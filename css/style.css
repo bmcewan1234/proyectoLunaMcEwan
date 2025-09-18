@@ -49,6 +49,11 @@ body {
     flex-direction: row;
     gap: 20px;
 }
+.product-detail{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;  
+}
 
 .categorias{
     background-color: #FAF8EE;
@@ -111,4 +116,3 @@ body {
     border: 2px solid #FAF8EE;
     margin-bottom: 20px;
 }
-
