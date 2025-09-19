@@ -1,6 +1,5 @@
 *{
     padding: 0px;
-    margin-bottom: 0px;
 }
 body {
     background-image: url(../img/ChatGPT\ Image\ Sep\ 17\,\ 2025\,\ 11_36_24\ AM.png);
@@ -64,7 +63,7 @@ body {
     display: flex;
     flex-direction: column;
     list-style: none;
-    gap: 40px;
+    gap: 20px;
     padding: 20px;
 }
 
@@ -80,7 +79,7 @@ body {
     font-size: 25px;
 }
 
-.camisetas{
+.cajas-productos{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -89,7 +88,7 @@ body {
     margin-left: 20px;
 }
 
-.argentina, .alemania, .españa, .brasil, .holanda, .italia{
+.cajas-productos article{
     background-color: #FAF8EE;
     border-radius: 20px;
     width: 300px;
@@ -98,7 +97,7 @@ body {
     text-align: center;
 }
 
-.argentina img, .alemania img, .españa img, .brasil img, .holanda img, .italia img{
+.cajas-productos img{
     width: 250px;
     height: auto;
 }
@@ -115,6 +114,20 @@ body {
     font-size: 25px;
     border: 2px solid #FAF8EE;
     margin-bottom: 20px;
+}
+
+.productos a{
+    text-align: center;
+    text-decoration: none;
+    background-color: #254737;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    border-radius: 5px;
+    color: #FAF8EE;
+    font-size: 20px;
+    border: 2px solid #FAF8EE;
 }
 
 .main-login h1{
