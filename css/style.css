@@ -209,3 +209,25 @@ body {
     font-size: 24;
     margin-bottom: 10px;
 }
+
+.info-del-producto p{
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.tags{
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.tags li {
+    background-color: #254737;
+    color: #FAF8EE;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 14px;
+}
