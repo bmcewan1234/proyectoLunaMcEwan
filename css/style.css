@@ -198,8 +198,6 @@ body {
 }
 
 
-
-
 .info-del-producto{
     flex: 1;
     min-width: 260px;
@@ -241,3 +239,14 @@ body {
     border-radius: 8px;
     font-size: 14px;
 }
+
+.bloque-productos h1{
+    text-align: center;
+    background-color: #254737;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #FAF8EE;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid #FAF8EE;
+}  
