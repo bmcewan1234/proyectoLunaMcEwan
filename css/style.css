@@ -185,3 +185,28 @@ body {
     border: 2px solid #FAF8EE;
 }
 
+.camisetaarg img{
+    width:280px;
+    max-width:100%;
+    height: auto;
+    display: block;
+    border:1px solid  #FAF8EE;
+}
+
+.info-del-producto{
+    flex: 1;
+    min-width: 260px;
+}
+
+
+.detalledeproducto {
+    background-color: #FAF8EE;  
+  border-radius: 20px;        
+  width: 400px;               
+  padding: 20px; 
+}
+
+.info-del-producto h2{
+    font-size: 24;
+    margin-bottom: 10px;
+}
