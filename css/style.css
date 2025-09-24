@@ -250,3 +250,47 @@ body {
     border-radius: 20px;
     border: 2px solid #FAF8EE;
 }  
+
+.main-register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.form-register{
+    background-color: #FAF8EE;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+    height: 400px;
+}
+
+.main-register h1{
+    text-align: center;
+    background-color: #254737;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    border-radius: 5px;
+    color: #FAF8EE;
+    font-size: 25px;
+    border: 2px solid #FAF8EE;
+    margin-bottom: 20px;
+}
+.botones-register{
+    padding-top: 40px;
+}
+.form-register ul{
+    list-style: none;
+    padding: 0;
+}   
+.form-register div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

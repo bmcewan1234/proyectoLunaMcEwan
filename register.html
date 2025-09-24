@@ -24,25 +24,35 @@
             </nav>
         </section>
     </header>
-    <main> 
+    <main class="main-register"> 
         <h1>Bienvenido!</h1>
-        <form action="index.html" method="get">
+        <form class="form-register" action="index.html" method="get">
             <div>
-                <label for="username">Mail: </label>
+                <label for="username">Mail</label>
                 <input type="text" id="username" name="username" required>
             </div>
             <div>
-                <label for="contraseña">Contraseña: </label>
+                <label for="contraseña">Contraseña</label>
                 <input type="password" id="contraseña" name="contraseña" required>
             </div>
             <div>
                 <label for="hobbies">Tenes algun Hobbie?</label>
-                <input type="checkbox" id="hobbies" name="hobbies" value="futbol"> Futbol
-                <input type="checkbox" id="hobbies" name="hobbies" value="basket"> Basket
-                <input type="checkbox" id="hobbies" name="hobbies" value="tenis"> Tenis
-                <input type="checkbox" id="hobbies" name="hobbies" value="otro"> Otro
+                <ul>
+                    <li>
+                        <input type="checkbox" id="hobbies" name="hobbies" value="futbol"> Futbol
+                    </li>
+                    <li>
+                        <input type="checkbox" id="hobbies" name="hobbies" value="basket"> Basket
+                    </li>
+                    <li>
+                        <input type="checkbox" id="hobbies" name="hobbies" value="tenis"> Tenis
+                    </li>
+                    <li>
+                        <input type="checkbox" id="hobbies" name="hobbies" value="otro"> Otro
+                    </li>
+                </ul>
             </div>
-            <div>
+            <div class="botones-register">
                 <button type="submit">Registrarse</button>
             </div>
         </form>
