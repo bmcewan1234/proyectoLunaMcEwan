@@ -329,3 +329,9 @@ body {
     }
 
 }
+
+.resultadosnoencontrados {
+    color: #FAF8EE;
+    display: flex;
+    justify-content: center;
+}
