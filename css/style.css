@@ -336,3 +336,25 @@ body {
     display: none;
     justify-content: center;
 }
+
+.barradebusqueda{
+    display: flex;
+    gap: 8px;
+    margin-left: 20px;
+}
+
+.barradebusqueda input{
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid;
+
+}
+
+.barradebusqueda button {
+    background-color: #254737;
+    color: #faf8ee;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+
+}
