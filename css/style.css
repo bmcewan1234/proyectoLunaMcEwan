@@ -286,6 +286,7 @@ body {
     list-style: none;
     padding: 0;
 }   
+
 .form-register div{
     display: flex;
     flex-direction: column;
@@ -332,6 +333,6 @@ body {
 
 .resultadosnoencontrados {
     color: #FAF8EE;
-    display: flex;
+    display: none;
     justify-content: center;
 }
