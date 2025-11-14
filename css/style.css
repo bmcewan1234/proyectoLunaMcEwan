@@ -367,7 +367,7 @@ body {
     font-size: 20px;
 }
 
-footer{
+footer {
     background-color: #FAF8EE;
     color: #254737;
     text-align: center;
@@ -410,6 +410,7 @@ footer{
     font-size: 20px;
     border: 2px solid #FAF8EE;
 }
+
 @media (max-width: 426px) {
 
     .section-header {
