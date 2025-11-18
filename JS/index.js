@@ -16,11 +16,11 @@ formulario.addEventListener("submit", function (evento) {
 })
 
 let seccionesProductos = document.querySelectorAll(".productos .cajas-productos");
-let seccionCamisetas = seccionesProductos[0];
-let seccionBotines = seccionesProductos[1];
+let seccionFragrances = seccionesProductos[1];
+let seccionBeauty = seccionesProductos[0];
 
-cargarSeccion("camisetas-hombre", seccionCamisetas);
-cargarSeccion("botines-hombre", seccionBotines);
+cargarSeccion("fragrances", seccionFragrances);
+cargarSeccion("beauty", seccionBeauty);
 
 function cargarSeccion(nombreCategoria, contenedor){
     fetch("https://dummyjson.com/products/category/" + nombreCategoria)
@@ -31,7 +31,7 @@ function cargarSeccion(nombreCategoria, contenedor){
             let productos = data.products;
             let contenido = "";
 
-            for (let i = 0; i < 10; i++) {
+            for (let i = 0; i < productos.length && i < 10; i++) {
                 let p = productos[i];
                 contenido += `
                     <article>
