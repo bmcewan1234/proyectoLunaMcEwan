@@ -50,3 +50,39 @@ function cargarSeccion(nombreCategoria, contenedor){
             contenedor.innerHTML = "<p>Hubo un error al cargar los productos</p>";
         })    
 }
+
+
+// punto 3 menu de navegacion con categorias denamicas de la api
+
+
+fetch("https://dummyjson.com/products/category-list")
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (data) {
+        console.log(data);
+
+        let listaCategorias = document.querySelector(".categorias ul");
+
+        let contenidoCategorias = "";
+
+        for (let i = 0; i < data.length; i++) {
+            let categoria = data[i];
+
+            contenidoCategorias += `
+                <li>
+                    <a href="category.html?category=${categoria}">
+                        ${categoria}
+                    </a>
+                </li>
+            `;
+        }
+
+        listaCategorias.innerHTML = contenidoCategorias;
+    })
+    .catch(function (error) {
+        console.log("el error es: " + error);
+    });
+
+
+
