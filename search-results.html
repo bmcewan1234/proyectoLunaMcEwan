@@ -17,64 +17,25 @@
                 <li><a href="./login.html">LOGIN</a></li>
                 <li><a href="./register.html">REGISTER</a></li>
             </ul>
-            
+            <form action="search-results.html" method="get" class="barradebusqueda">
+                <input type="text" name="query" value="" placeholder="buscar productos">
+                <button type="submit">BUSCAR</button>
+            </form>
         </nav>
 
     </header>
-</body>
-
-<main>
-    <section class="productos-search">
-        <h2 class="resultadosnoencontrados">resultado no encontrado...</h2>
-        <h2>CAMISETAS</h2>
-        <section class="cajas-productos">
-            <article>
-                <img src="./img/camisetas/argentina.webp" alt="img-argentina">
-                <h3>Camiseta Local Argentina 2024</h3>
-                <h4>$169,99</h4>
-                <a href="product.html">Ver mas</a>
-            </article>
-            <article>
-                <img src="./img/camisetas/alemania.webp" alt="">
-                <h3>Camiseta Local Alemania 2022</h3>
-                <h4>$159,99</h4>
-                <a href="product.html">Ver mas</a>
-            </article>
-            </article>
-            <article>
-                <img src="./img/camisetas/españa.webp" alt="">
-                <h3>Camiseta Visitante España 2025</h3>
-                <h4>$149,99</h4>
-                <a href="product.html">Ver mas</a>
-            </article>
-            </article>
-            <article>
-                <img src="./img/camisetas/brazil.webp" alt="">
-                <h3>Camiseta Visitante Brasil 2023</h3>
-                <h4>$179,99</h4>
-                <a href="product.html">Ver mas</a>
-            </article>
-            </article>
-            <article>
-                <img src="./img/camisetas/holanda.webp" alt="">
-                <h3>Camiseta Local Holanda 2024</h3>
-                <h4>$169,99</h4>
-                <a href="product.html">Ver mas</a>
-            </article>
-            <article>
-                <img src="./img/camisetas/italia.webp" alt="">
-                <h3>Camiseta Local Italia 2024</h3>
-                <h4>$159,99</h4>
-                <a href="product.html">Ver mas</a>
-            </article>
+    <main>
+        <section class="productos-search">
+            <h2 class="tituloSearch"></h2>
+            <section class="cajas-productos">
+            </section>
         </section>
-    </section>
-
+    </main>
     <footer>
         <h3>IVAN LUNA</h3>
         <h3>BENJAMIN MCEWAN</h3>
     </footer>
-    <script src="/JS/search-results.js"></script>
-</main>
+    <script src="JS/search-results.js"></script>
+</body>
 
 </html>

@@ -1,8 +1,7 @@
 
-let querystring = window.location.search;
-querystring = querystring.replace("?", "");
-let separo = querystring.split("=");
-let categoria = separo[1];
+let queryString = location.search;                
+let queryStringObj = new URLSearchParams(queryString);
+let categoria = queryStringObj.get("category"); 
 
 let titulo = document.querySelector(".tituloCategory");
 let contenedor = document.querySelector(".productos-search .cajas-productos");
@@ -17,7 +16,7 @@ fetch("https://dummyjson.com/products/category/" + categoria)
     .then(function (data) {
         let productos = data.products;
         let contenido = "";
-
+        
         for (let i = 0; i < productos.length; i++) {
             let p = productos[i];
             contenido += `
