@@ -49,6 +49,31 @@ fetch(urlDetalle)
         }
 
         listaTags.innerHTML = contenidoTags;
+
+        let contenedorReseñas = document.querySelector(".lista-reseñas");
+        let contenidoReseñas = "";
+
+        let reviews = data.reviews;
+
+        console.log("reviews", reviews);
+
+        if (reviews && reviews.length > 0){
+            for (let i = 0; i < reviews.length; i++){
+                let r = reviews[i];
+
+                contenidoReseñas += `
+                    <article class="reseñas">
+                        <h4>${r.reviewerName}</h4>
+                        <p>${r.comment}</p>
+                        <p>⭐${r.rating}</p>
+                        <p>${r.date}</p>
+                    </article>
+                `;
+            }
+        }else{
+            contenidoReseñas= "<p> No hay reseñas para este tipo de producto</p>"
+        }
+        contenedorReseñas.innerHTML = contenidoReseñas
     }) 
     .catch(function(error){
         console.log('el error es:', error);
