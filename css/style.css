@@ -411,6 +411,10 @@ footer {
     border: 2px solid #FAF8EE;
 }
 
+.bienvenidaEmail, .logout {
+    display: none;
+}
+
 @media (max-width: 426px) {
 
     .section-header {
