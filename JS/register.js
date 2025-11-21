@@ -20,11 +20,11 @@ formRegister.addEventListener("submit", function(event){
         alert ("la contraseña debe tener al menos 6 caracteres")
         return;
     }
-    if (inputPassword2 == ""){
+    if (inputPassword2.value == ""){
         alert("debes repetir la contraseña")
         return;
     }
-    if (inputPassword !== inputPassword2){
+    if (inputPassword.value !== inputPassword2.value){
         alert("las contraseñas no coinciden")
         return;
     
@@ -35,7 +35,7 @@ formRegister.addEventListener("submit", function(event){
         return;
         
     }else{
-        this.submit
+        this.submit()
     }
     
     
