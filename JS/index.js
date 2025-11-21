@@ -55,7 +55,7 @@ function cargarSeccion(nombreCategoria, contenedor){
 // punto 3 menu de navegacion con categorias denamicas de la api
 
 
-fetch("https://dummyjson.com/products/category-list")
+fetch('https://dummyjson.com/products/categories')
     .then(function (response) {
         return response.json();
     })
@@ -71,8 +71,8 @@ fetch("https://dummyjson.com/products/category-list")
 
             contenidoCategorias += `
                 <li>
-                    <a href="category.html?category=${categoria}">
-                        ${categoria}
+                    <a href="category.html?category=${categoria.slug}">
+                        ${categoria.name}
                     </a>
                 </li>
             `;
