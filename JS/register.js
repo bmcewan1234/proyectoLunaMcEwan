@@ -2,7 +2,7 @@ let formRegister = document.querySelector(".form-register");
 let inputEmail = document.querySelector("input[name='email']");
 let inputPassword = document.querySelector("input[name='password']");
 let inputPassword2 = document.querySelector("input[name='password2']");
-let terminosyCondiciones= document.querySelector("input[name=terminosycondiciones]");
+
 
 formRegister.addEventListener("submit", function(event){
     event.preventDefault();
@@ -28,13 +28,7 @@ formRegister.addEventListener("submit", function(event){
         alert("las contraseñas no coinciden")
         return;
     
-    } 
-
-    if (terminosyCondiciones == ""){
-        alert("debes aceptar los terminos y condicions")
-        return;
-        
-    }else{
+    } else{
         this.submit()
     }
     
